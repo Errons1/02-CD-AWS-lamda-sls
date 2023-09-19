@@ -8,8 +8,6 @@ Globals:
 Resources:
   SentimentFunction:
     Type: AWS::Serverless::Function
-    Auth:
-      Authorizer: NONE
     Properties:
       CodeUri: lambda/
       Handler: app.handler
